@@ -1,0 +1,10 @@
+# Django
+DJANGO_SECRET_KEY=django-insecure-change-this-to-a-long-random-string
+DJANGO_DEBUG=True
+
+# PostgreSQL
+DB_NAME=osint_news_db
+DB_USER=osint_user
+DB_PASSWORD=strongpassword
+DB_HOST=localhost
+DB_PORT=5432
