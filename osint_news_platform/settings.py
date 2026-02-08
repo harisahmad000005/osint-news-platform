@@ -26,6 +26,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+INSTALLED_APPS += ['django.contrib.postgres', 'sources', 'articles', 'entities', 'clusters', 'analytics']
 
 # MIDDLEWARE
 MIDDLEWARE = [
